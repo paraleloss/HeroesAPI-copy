@@ -30,9 +30,9 @@ struct SearchInfo: Codable {
 // MARK: - VolumeInfo
 struct VolumeInfo: Codable {
     let title: String
-    let authors: [String]
+    //et authors: [String]
     let publishedDate: String
-    let categories: [String]?
+   // let categories: [String]?
     let imageLinks: ImageLinks?
     let description: String?
 }

@@ -19,16 +19,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        parse{_ in
-            self.tableView.reloadData()
-        }
+        parse()
         
         tableView.delegate = self
         tableView.dataSource = self
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return heroes.count
+        return libros.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -85,27 +83,44 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }.resume()
     }// func
     
-    func parse(comp : @escaping ([LibroData]) -> ()){
+    
+    func parse(bookData: Data) -> LibroModelFinal? {
         let api = URL(string: "https://www.googleapis.com/books/v1/volumes?q=baldor")
         
         URLSession.shared.dataTask(with: api!){
-        
             data, response, error in
+            
         if error != nil{
             print(error?.localizedDescription)
             print("no funcionó")
             return
         }
         do{
-            let result = try JSONDecoder().decode(LibroData.self, from: data!)
-            //comp(result.title as String)
+            let result = try JSONDecoder().decode(VolumeInfo.self, from: data!)
+
             print("Parse func result:")
             print(result)
-        } catch{
+            
+            
+            let titleLibroFinal = result.title
+            //let authorsLibro = result.authors
+            let publishedDateLibro = result.publishedDate
+            //let categoriesLibro = result.categories
+           // let thumbnailLibro = result
+            //let descriptionLibro: String?
+            
+            let bookId = LibroModelFinal(titleLibro: titleLibroFinal, publishedDateLibro: publishedDateLibro)
+            print(titleLibroFinal)
+            
+         return
+        } catch{print("error")
             
         }
             } .resume()
     }// func parse
+    
+    
+    
     
     
 //    enum LibrosError:Error {

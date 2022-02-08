@@ -17,6 +17,7 @@
 		C745350327B1D34700531EA9 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350227B1D34700531EA9 /* HeroStats.swift */; };
 		C745350527B2E95400531EA9 /* LibroData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350427B2E95400531EA9 /* LibroData.swift */; };
 		C745350727B30DEB00531EA9 /* Libro2Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350627B30DEB00531EA9 /* Libro2Data.swift */; };
+		C745350927B319DD00531EA9 /* LibroModelFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350827B319DD00531EA9 /* LibroModelFinal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C745350227B1D34700531EA9 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 		C745350427B2E95400531EA9 /* LibroData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroData.swift; sourceTree = "<group>"; };
 		C745350627B30DEB00531EA9 /* Libro2Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro2Data.swift; sourceTree = "<group>"; };
+		C745350827B319DD00531EA9 /* LibroModelFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroModelFinal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C745350227B1D34700531EA9 /* HeroStats.swift */,
 				C745350427B2E95400531EA9 /* LibroData.swift */,
 				C745350627B30DEB00531EA9 /* Libro2Data.swift */,
+				C745350827B319DD00531EA9 /* LibroModelFinal.swift */,
 			);
 			path = HeroesAPI;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				C745350127B18E8B00531EA9 /* HeroViewController.swift in Sources */,
 				C74534F127B18DFB00531EA9 /* ViewController.swift in Sources */,
 				C745350527B2E95400531EA9 /* LibroData.swift in Sources */,
+				C745350927B319DD00531EA9 /* LibroModelFinal.swift in Sources */,
 				C74534ED27B18DFB00531EA9 /* AppDelegate.swift in Sources */,
 				C745350327B1D34700531EA9 /* HeroStats.swift in Sources */,
 				C745350727B30DEB00531EA9 /* Libro2Data.swift in Sources */,
