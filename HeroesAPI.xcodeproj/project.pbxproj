@@ -13,6 +13,10 @@
 		C74534F427B18DFB00531EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74534F227B18DFB00531EA9 /* Main.storyboard */; };
 		C74534F627B18DFD00531EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74534F527B18DFD00531EA9 /* Assets.xcassets */; };
 		C74534F927B18DFD00531EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74534F727B18DFD00531EA9 /* LaunchScreen.storyboard */; };
+		C745350127B18E8B00531EA9 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350027B18E8B00531EA9 /* HeroViewController.swift */; };
+		C745350327B1D34700531EA9 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350227B1D34700531EA9 /* HeroStats.swift */; };
+		C745350527B2E95400531EA9 /* LibroData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350427B2E95400531EA9 /* LibroData.swift */; };
+		C745350727B30DEB00531EA9 /* Libro2Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745350627B30DEB00531EA9 /* Libro2Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C74534F527B18DFD00531EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74534F827B18DFD00531EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74534FA27B18DFD00531EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C745350027B18E8B00531EA9 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		C745350227B1D34700531EA9 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
+		C745350427B2E95400531EA9 /* LibroData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroData.swift; sourceTree = "<group>"; };
+		C745350627B30DEB00531EA9 /* Libro2Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro2Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				C74534EC27B18DFB00531EA9 /* AppDelegate.swift */,
 				C74534EE27B18DFB00531EA9 /* SceneDelegate.swift */,
+				C745350027B18E8B00531EA9 /* HeroViewController.swift */,
 				C74534F027B18DFB00531EA9 /* ViewController.swift */,
 				C74534F227B18DFB00531EA9 /* Main.storyboard */,
 				C74534F527B18DFD00531EA9 /* Assets.xcassets */,
 				C74534F727B18DFD00531EA9 /* LaunchScreen.storyboard */,
 				C74534FA27B18DFD00531EA9 /* Info.plist */,
+				C745350227B1D34700531EA9 /* HeroStats.swift */,
+				C745350427B2E95400531EA9 /* LibroData.swift */,
+				C745350627B30DEB00531EA9 /* Libro2Data.swift */,
 			);
 			path = HeroesAPI;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C745350127B18E8B00531EA9 /* HeroViewController.swift in Sources */,
 				C74534F127B18DFB00531EA9 /* ViewController.swift in Sources */,
+				C745350527B2E95400531EA9 /* LibroData.swift in Sources */,
 				C74534ED27B18DFB00531EA9 /* AppDelegate.swift in Sources */,
+				C745350327B1D34700531EA9 /* HeroStats.swift in Sources */,
+				C745350727B30DEB00531EA9 /* Libro2Data.swift in Sources */,
 				C74534EF27B18DFB00531EA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
